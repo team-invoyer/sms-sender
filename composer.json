@@ -1,0 +1,42 @@
+{
+    "name": "invoyer/sms-sender",
+    "description": "This package allows simple implementation of SMS sending through TCG",
+    "type": "library",
+    "keywords": [
+        "invoyer",
+        "invoyer-team",
+        "laravel",
+        "sms",
+        "sms-sending",
+        "text",
+        "message",
+        "tcg"
+    ],
+    "homepage": "https://github.com/team-invoyer/sms-sending",
+    "autoload": {
+        "psr-4": {
+            "Invoyer\\SmsSender\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "INVOYER\\SeoSettings\\SeoSettingsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "MarkasCherry",
+            "email": "markas.cherry@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "illuminate/console": "^8.0|^9.0|^10.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
