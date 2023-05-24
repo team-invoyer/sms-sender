@@ -23,10 +23,10 @@ final class SmsSender
         public string $text
     )
     {
-        $this->baseUrl = config('onesoft.tcg.base_url');
-        $this->login = config('onesoft.tcg.login');
-        $this->apiKey = config('onesoft.tcg.api_key');
-        $this->sender = config('onesoft.tcg.sender');
+        $this->baseUrl = config('sms-sender.tcg.base_url');
+        $this->login = config('sms-sender.tcg.login');
+        $this->apiKey = config('sms-sender.tcg.api_key');
+        $this->sender = config('sms-sender.tcg.sender');
     }
 
     public function send()
